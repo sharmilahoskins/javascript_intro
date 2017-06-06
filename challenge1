@@ -1,0 +1,95 @@
+
+// Reverse word one
+function reverseCharAt(word) {
+    return word.charAt(word.length - 1) + word.charAt(word.length - 2) + word.charAt(word.length - 3) + word.charAt(word.length - 4) + word.charAt(word.length - 5)}
+
+// Lifetime supply one
+    function lifetimeSupply(age, amount)	{console.log((100-age)*(365*amount)) }
+
+// Celsius to Farenheight
+function celsiusToFahrenheit(temp) {console.log(temp+" degrees celsius is "+((temp * 1.8)+ 32)+" Degrees F") }
+
+// Password challenge
+
+function idCheck(user)  {
+    return user.length >= 6 && !user.includes("!") && !user.includes("#") && !user.includes("$")
+}
+
+function pwCheck(pass)  {
+    return pass.length >= 6 && ( pass.includes("!") || pass.includes("#") || pass.includes("$") ) && pass !=="password" && (pass.search(/[0-9]/) >= 1) && (pass.search(/[A-Z]/) >= 1)
+}
+
+function caseCheck(asdf)  {
+  return (asdf.search(/[A-Z]/) >= 1)
+}
+
+function check(id, pw) {
+  return pwCheck(pw) && idCheck(id) && id !== pw
+}
+
+function userInput()  {
+  var username = prompt("Input Username")
+  var password = prompt("Input Password")
+  alert("you have cred: " + (idCheck(username) && pwCheck(password)))
+}
+
+
+(pass.includes("0") || pass.includes("1") || pass.includes("2") || pass.includes("3") || pass.includes("4") ||
+pass.includes("5") || pass.includes("6") ||
+pass.includes("7") || pass.includes("8") || pass.includes("9")
+
+
+
+
+// Credit Card Number CHallenge
+function dropLast(card) {
+  return ((parseInt(card.charAt(0)*2) >9) * (-9))
+  + parseInt(card.charAt(0))
+  var pos3= card.charAt(2)*2
+   var pos4= card.charAt(3)
+   var pos5= card.charAt(4)*2
+   var pos6= card.charAt(5)
+   var pos7= card.charAt(6)*2
+   var pos8= card.charAt(7)
+   var pos9= card.charAt(8)*2
+   var pos10= card.charAt(9)
+   var pos11= card.charAt(10)*2
+   var pos12= card.charAt(11)
+   var pos13= card.charAt(12)*2
+   var pos14= card.charAt(13)
+   var pos15= card.charAt(14)*2
+   return pos1 +
+}
+
+var card = "4916624528309612"
+function dropLast(card) {
+  var pos1 = parseInt(card.charAt(0)*2);
+  var  newpos1 += (pos1>9)*(-9)
+  var pos2 = parseInt(card.charAt(0)*2);
+  var newpos2 += (pos1>9)*(-9)
+  var pos3 = parseInt(card.charAt(0)*2);
+  var newpos3 += (pos1>9)*(-9)
+  var pos4 = parseInt(card.charAt(0)*2);
+  var newpos4 += (pos1>9)*(-9)
+  var pos5 = parseInt(card.charAt(0)*2);
+  var newpos5 += (pos1>9)*(-9)
+  var pos6 = parseInt(card.charAt(0)*2);
+  var newpos6 += (pos1>9)*(-9)
+  var pos7 = parseInt(card.charAt(0)*2);
+  var newpos7 += (pos1>9)*(-9)
+  var pos8 = parseInt(card.charAt(0)*2);
+  var newpos8 += (pos1>9)*(-9)
+  var pos9 = parseInt(card.charAt(0)*2);
+  var newpos9 += (pos1>9)*(-9)
+  var pos10 = parseInt(card.charAt(0)*2);
+  var newpos10 += (pos1>9)*(-9)
+  var pos11 = parseInt(card.charAt(0)*2);
+  var newpos11 += (pos1>9)*(-9)
+  var pos12 = parseInt(card.charAt(0)*2);
+  var newpos12 += (pos1>9)*(-9)
+  var pos13 = parseInt(card.charAt(0)*2);
+  var newpos13 += (pos1>9)*(-9)
+  var pos14 = parseInt(card.charAt(0)*2);
+  var newpos14 += (pos1>9)*(-9)
+  var pos15 = parseInt(card.charAt(0)*2);
+  var newpos15 += (pos1>9)*(-9)
